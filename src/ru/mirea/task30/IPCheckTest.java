@@ -21,7 +21,7 @@ public class IPCheckTest {
 
     static void writeCheckIPTestResults() {
         try {
-            FileWriter fw = new FileWriter("C:\\Users\\shalo\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task30\\CheckIPTestsResults.md");
+            FileWriter fw = new FileWriter("C:\\Users\\shalo\\IdeaProjects\\JavaFirstMirea\\src\\ru\\mirea\\task31\\CheckIPTestsResults.md");
             fw.write("Test results =>\n");
             fw.write("Test CheckIp()\n");
             if (IPCheckTest.CheckIpTest) {
