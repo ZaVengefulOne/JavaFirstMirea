@@ -1,10 +1,10 @@
 package ru.mirea.task6;
 
-public class Mouth extends Good{
+public class Mouse extends Good{
     private int dpi;
     private String color;
 
-    public Mouth(double price, int dpi, String color) {
+    public Mouse(double price, int dpi, String color) {
         super(price);
         this.dpi = dpi;
         this.color = color;
@@ -28,7 +28,7 @@ public class Mouth extends Good{
 
     @Override
     public String toString() {
-        return "Mouth{" +
+        return "Mouse{" +
                 "dpi=" + dpi +
                 ", color='" + color + '\'' + ", " + super.toString() +
                 '}';

@@ -7,7 +7,7 @@ public class TestInterface {
         System.out.println(p.getPrice());
         p = new Laptop(124041, "HP ProBook 450 G8");
         System.out.println(p);
-        p = new Mouth(800, 1800, "Black");
+        p = new Mouse(800, 1800, "Black");
         System.out.println(p);
     }
 
